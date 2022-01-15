@@ -1,0 +1,136 @@
+.t4{
+
+ width: 25%;
+}
+.text_center{
+    text-align: center;
+}
+/* main */
+#main{
+
+}
+.conten_body{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+#main .conten_heading{
+    font-size: 26px;
+    font-weight: bold;
+}
+#main .conten_sup_heading{
+    font-size: 20px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    text-align: justify;
+}
+#main .conten_heading,
+#main .conten_sup_heading{
+ text-align: center;
+ letter-spacing: 1.5px;
+}
+#about{
+    width: 100%;
+}
+#sezi_buy{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    display: inline-block;
+    list-style-type: none ;
+    margin-bottom: 60px;
+}
+#sezi_buy>li {
+    display: inline-block;
+    border: 1.5px solid rgb(137, 212, 166);
+}
+#sezi_buy>li>a{
+    color: #000;
+    text-decoration: none;
+    line-height: 30px;
+    margin: 0 24px;
+    display: block;
+    font-size: 20px;
+}
+#sezi_buy> li:hover > a{
+    background-color: aquamarine;
+    color: #fff;
+}
+/* menu */
+#sezi_menu .col{
+    padding-left: 8px;
+    padding-right: 8px;
+    float: left;
+}
+#sezi_menu .img_mon{
+    width: 90%;
+}
+#sezi_menu .col > p{
+    width: 90% ;
+    letter-spacing: 1.5px;
+    padding-top: 10px;
+    padding-left: 30px;
+    text-align: left;
+}
+#sezi_menu .ten{
+    color: blue;
+    font-weight: 500;
+    font-size: 26px;
+}
+#sezi_menu .coment{
+    opacity: o.5;
+    font-size: 20px;
+}
+#sezi_menu .gia{
+    color:rgb(75, 224, 133) ;
+    font-size: 20px;
+}
+/* het menu mon */
+#concat{
+    display: inline-flex;
+    width: 100%;
+    padding-top: 80px;
+}
+#concat .img_concat{
+width: 35%;
+}
+.concat_about{
+    width: 45%;
+}
+.concat_about .buy{
+    float: right;
+    width: 100px;
+    height: 45px;
+    margin-top: 50px;
+}
+
+.concat_about .ten {
+    color: blue;
+    font-weight: 500;
+    letter-spacing: 1.5;
+    font-size: 26px;
+}
+.concat_about .coment{
+    font-size: 13px;
+    padding-top: 20px;
+    letter-spacing: 1.5;
+    font-size: 20px;
+}
+/* footer */
+#footer{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+#footer .disegn{
+    text-align: center;
+}
+#footer .a{
+    text-decoration: none;
+    line-height: 30px;
+    color: rgb(184, 178, 178);
+}
